@@ -3,11 +3,11 @@ function d = lbfgsinverse_evalBkd(gradfxk, k, m, rho, s, y)
 % Performes a Leftinverse BFGS two loop recursion
 % Input:
 %   gradfxk --> gradient of f at Iterate x_k (vector)
-%   k --> Iterate step (integer)
-%   m --> memory size (integer)
-%   rho --> 
-%   s -->
-%   y -->
+%   k       --> Iterate step (integer)
+%   m       --> memory size (integer)
+%   s       --> Matrix of iterates increments (array)
+%   y       --> Matrix containing gradient incremets of iterates (array)
+%   rho     --> Inverse of dot-product of s_k and y_k (1xk array) 
 %
 % Output:
 %   d --> Product of B_k and gradfxk
