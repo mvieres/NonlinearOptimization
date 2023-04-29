@@ -1,0 +1,76 @@
+x0: 1
+
+Step: 1
+Step Size: 1
+Iterative:-2
+Search direction: -3
+Function value: -3.3333
+Step: 2
+Step Size: 1
+Iterative:-8
+Search direction: -6
+Function value: -309.3333
+Step: 3
+Step Size: 1
+Iterative:-128
+Search direction: -120
+Function value: -1389909.3333
+Step: 4
+Step Size: 1
+Iterative:-32768
+Search direction: -32640
+Function value: -23455711188309.33
+Step: 5
+Step Size: 1
+Iterative:-2147483648
+Search direction: -2147450880
+Function value: -6.602346873882851e+27
+Step: 6
+Step Size: 1
+Iterative:-9.223372036854776e+18
+Search direction: -9.223372034707292e+18
+Function value: -5.230918112822234e+56
+Step: 7
+Step Size: 1
+Iterative:-1.701411834604692e+38
+Search direction: -1.701411834604692e+38
+Function value: -3.283500516366206e+114
+Step: 8
+Step Size: 1
+Iterative:-5.78960446186581e+76
+Search direction: -5.78960446186581e+76
+Function value: -1.293765076917257e+230
+Step: 9
+Step Size: 1
+Iterative:-6.703903964971299e+153
+Search direction: -6.703903964971299e+153
+Function value: -Inf
+Step: 10
+Step Size: 1
+Iterative:-8.98846567431158e+307
+Search direction: -8.98846567431158e+307
+Function value: NaN
+Step: 11
+Step Size: 1
+Iterative:-Inf
+Search direction: -Inf
+Function value: NaN
+
+x0: 0.5
+Step: 1
+Step Size: 1
+Iterative:-0.5
+Search direction: -1
+Function value: 0.041667
+
+x0: 0.1
+Step: 1
+Step Size: 1
+Iterative:-0.02
+Search direction: -0.12
+Function value: 0.00019467
+Step: 2
+Step Size: 1
+Iterative:-0.0008
+Search direction: 0.0192
+Function value: 3.1966e-07
