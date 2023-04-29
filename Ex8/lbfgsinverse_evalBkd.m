@@ -10,7 +10,7 @@ function d = lbfgsinverse_evalBkd(gradfxk, k, m, rho, s, y)
 %   rho     --> Inverse of dot-product of s_k and y_k (1xk array) 
 %
 % Output:
-%   d --> Product of B_k and gradfxk
+%   d --> Product of B_k and gradfxk (array)
 
 q = gradfxk;
 alpha = zeros(1,m);
