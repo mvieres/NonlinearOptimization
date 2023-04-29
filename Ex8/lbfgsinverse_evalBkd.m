@@ -14,7 +14,7 @@ function d = lbfgsinverse_evalBkd(gradfxk, k, m, rho, s, y)
 
 q = gradfxk;
 alpha = zeros(1,m);
-for i = (k-1):-1:max(k-m,1)
+for i = (k-1):-1:(k-m)
     alpha(k-i) = rho(i)*dot(s(:,i),q);
     q = q - alpha(k-i)*y(:,i);
 end
