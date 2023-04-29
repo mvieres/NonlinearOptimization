@@ -1,5 +1,5 @@
 %%% Sheet 7 Main
-
+diary('output_console.txt')
 % Parameters
 
 maxiter = 10000;
@@ -58,3 +58,4 @@ for i = 1:2
     end
 end
 results = results(:,1:(end-1));
+diary("off")

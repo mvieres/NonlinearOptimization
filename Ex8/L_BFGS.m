@@ -1,15 +1,18 @@
 function X = L_BFGS(f,gradf,x0,m,tol,maxit)
+% SYNTAX X = L_BFGS(f,gradf,x0,m,tol,maxit)
+% Performs the Leftinverse BFGS minimization algorithm 
 %
+% Input:
+%   f       --> Function f to be minimized (function handle)
+%   gradf   --> Gradient of f (function handle)
+%   x0      --> Starting point (Vector / Array)
+%   m       --> History size (integer)
+%   tol     --> Null-Tolerance (float)
+%   maxit   --> Maximum iterations (integer)
 %
-%
-%
-%
-%
-%
-%
-%
-%
-%
+% Output:
+%   X --> Matrix containing all iterates (array)
+
 chunksize = 100;
 x0 = reshape(x0,[],1);
 
