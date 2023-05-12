@@ -1,4 +1,4 @@
-%%% Sheet 7 Main
+%%% Sheet 8 Main
 diary('output_console.txt')
 % Parameters
 
@@ -25,9 +25,10 @@ for i = 1:2
             gradf('reset');
 
             % Start of calculations
-            tic;
+            
             rng(300)
             x0 = sqrt(20)*randn([n(j), 1]);
+            tic;
             %f = @(x) extRosenbrock(x, alpha(i));
             %gradf = @(x) extRosenbrockGradient(x, alpha(i));
             X = L_BFGS(f,gradf,x0,m(h),tol,maxiter);

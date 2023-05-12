@@ -1,6 +1,6 @@
 function X = L_BFGS(f,gradf,x0,m,tol,maxit)
 % SYNTAX X = L_BFGS(f,gradf,x0,m,tol,maxit)
-% Performs the Leftinverse BFGS minimization algorithm 
+% Performs the limited memory BFGS minimization algorithm 
 %
 % Input:
 %   f       --> Function f to be minimized (function handle)
